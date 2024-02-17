@@ -41,10 +41,17 @@ Close-: The closing price refers to a stock's trading price closed at the end of
 OBJECTIVE- The objective of this project is to predict the yes bank stock closing price of the month which includes the following steps-
 
 1-  Loading the data into a data frame.
+
 2-  Cleaning the data.
+
 3-  Exploratory analysis and visualizations.
+
 4-  Feature Manipulation and Selection.
+
 5-  Train Test Split.
+
 6-  Model Implementation.
+
 7-  Selecting the best model.
+
 8-  Model Deployment.

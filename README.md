@@ -50,6 +50,12 @@ Close-: The closing price refers to a stock's trading price closed at the end of
 
 5-  Train Test Split.
 
+6-  Model Implementation.
+
+7-  Selecting the best model.
+
+8-  Model Deployment.
+
 # **Conclusion**
 
 - The project successfully implemented six machine learning models to predict the closing stock price of a company. The best performing model, Ridge Regression, achieved a training accuracy of 95.48% and a testing accuracy of 94.19% with the lowest RMSE value of 0.219. After cross-validation and hyperparameter tuning, the tuned model achieved a training accuracy of 97.11% and a testing accuracy of 94.07%, indicating a slight risk of overfitting.
@@ -59,9 +65,3 @@ Close-: The closing price refers to a stock's trading price closed at the end of
 - The evaluation metrics used to choose the best performing model were R2_score and RMSE.
 
 - *The results suggest that using supervised learning algorithms to identify stock manipulation based on a labeled dataset is promising.*
-
-6-  Model Implementation.
-
-7-  Selecting the best model.
-
-8-  Model Deployment.

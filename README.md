@@ -21,7 +21,7 @@ This repository contains a machine learning regression model developed to predic
 
 **Conclusion:**
 
-The project successfully demonstrates the application of supervised machine learning regression techniques for predicting the closing price of Yes Bank stocks. The best performing model is chosen based on its accuracy andgeneralizability.
+The project successfully demonstrates the application of supervised machine learning regression techniques for predicting the closing price of Yes Bank stocks. The best performing model is chosen based on its accuracy and generalizability.
 
 # **Problem Statement**
 Yes Bank is a well-known bank in the Indian financial domain. Since 2018, it has been in the news because of the fraud case involving Rana Kapoor. Owing to this fact, it was interesting to see how that impacted the stock prices of the company and whether Time Series models or any other predictive models can do justice to such situations. This Dataset has monthly stock prices of the bank since its inception and includes closing, opening, highest and lowest stock prices of every month. The main objective is to predict the closing stock price of the month.
@@ -49,6 +49,16 @@ Close-: The closing price refers to a stock's trading price closed at the end of
 4-  Feature Manipulation and Selection.
 
 5-  Train Test Split.
+
+# **Conclusion**
+
+- The project successfully implemented six machine learning models to predict the closing stock price of a company. The best performing model, Ridge Regression, achieved a training accuracy of 95.48% and a testing accuracy of 94.19% with the lowest RMSE value of 0.219. After cross-validation and hyperparameter tuning, the tuned model achieved a training accuracy of 97.11% and a testing accuracy of 94.07%, indicating a slight risk of overfitting.
+
+- All independent features (High, Low, Open) were strongly correlated with each other and with the dependent feature (Close). According to the best performing model, the feature "Low" was of utmost importance.
+
+- The evaluation metrics used to choose the best performing model were R2_score and RMSE.
+
+- *The results suggest that using supervised learning algorithms to identify stock manipulation based on a labeled dataset is promising.*
 
 6-  Model Implementation.
 

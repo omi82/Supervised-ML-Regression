@@ -38,7 +38,7 @@ Low-: It is the minimum price at which a stock is traded during a period.
 
 Close-: The closing price refers to a stock's trading price closed at the end of a trading day. It's a dependent variable that we need to predict from our respective ML models. The closing price is calculated as the weighted average price of the last 30 minutes, i.e. from 3:00 PM to 3:30 PM in case of equity.
 
-OBJECTIVE- The objective of this project is to predict the yes bank stock closing price of the month which includes the following steps-
+**OBJECTIVE-** The objective of this project is to predict the yes bank stock closing price of the month which includes the following steps-
 
 1-  Loading the data into a data frame.
 
